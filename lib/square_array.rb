@@ -1,6 +1,10 @@
-def square_array(numbers)
-  numbers=[1, 2, 3, 4]
-  while array[numbers**numbers] do
-  puts square_array
-end
+def find_element_index(array, value_to_find)
+ new_array = []
+ counter = 0
+ 
+ while counter < array.length do
+   new_array << array[counter]**2 
+   counter += 1 
+  end
+  new_array
 end
